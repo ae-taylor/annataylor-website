@@ -93,7 +93,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #39393a;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -110,7 +110,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgba(255, 255, 255, 0.849);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -192,10 +192,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #39393a, #FF8552);
+				background-image: -webkit-linear-gradient(to right, #39393a, #FF8552);
+				background-image: -ms-linear-gradient(to right, #39393a, #FF8552);
+				background-image: linear-gradient(to right, #39393a, #FF8552);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1910,7 +1910,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #39393a !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2394,7 +2394,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: rgba(255, 255, 255, 0.55);
+			color: rgba(255, 255, 255, 0.849);
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2439,7 +2439,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #FF8552;
 			content: '\f00c';
 		}
 
@@ -2520,7 +2520,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #39393A;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2531,27 +2531,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #39393A;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #39393B;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #39393A;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #39393A;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #FF8552;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #FF8552;
 				}
 
 /* Image */
@@ -3017,7 +3017,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: #39393abb;
 				content: '';
 				display: block;
 				height: 100%;
@@ -3059,11 +3059,11 @@ input, select, textarea {
 			}
 
 		.spotlights > section:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.05);
+			background-color: #39393A;
 		}
 
 		.spotlights > section:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.1);
+			background-color: #39393A;
 		}
 
 		.spotlights > section.inactive > .image:before,
@@ -3145,7 +3145,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(255, 255, 255, 0.05);
+				background-color: #39393A;
 			}
 
 		table td {
@@ -3231,31 +3231,31 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #39393A;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #39393A;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #39393A;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #39393A;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #39393A;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: FF8552;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #FF8552;
 		}
 
 		.wrapper.fullscreen {
@@ -3365,7 +3365,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #39393A;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3519,7 +3519,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #073c3c;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3756,14 +3756,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #FF8552;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #FF8552, #e6e6e6);
+				background-image: -webkit-linear-gradient(to right, #FF8552, #e6e6e6);
+				background-image: -ms-linear-gradient(to right, #FF8552, #e6e6e6);
+				background-image: linear-gradient(to right, #FF8552, #e6e6e6);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3772,7 +3772,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: rgba(255, 255, 255, 0.831);
 			}
 
 			#sidebar nav a.active {
@@ -3852,7 +3852,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #FF8552;
 						}
 
 		}
@@ -3880,7 +3880,7 @@ input, select, textarea {
 			width: 200px;
 			max-width: 200px;
 			height: auto;
-			border: solid 5px #b74e91;
+			border: solid 5px #FF8552;
 			margin-bottom: 1.75em;
 		}
 
